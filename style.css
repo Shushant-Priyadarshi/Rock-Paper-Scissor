@@ -1,0 +1,76 @@
+body,html{
+    background-color: black;
+    color: white;
+}
+
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    
+}
+
+.heading{
+    margin: auto;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.main-game-play-container{
+    margin: auto;
+    font-size: 3rem;
+}
+
+.result{
+    margin: auto;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.play-screen{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.play-btns{
+    display: flex;
+    font-size: 1.2rem;
+    gap: 40px;
+}
+
+.btns{
+    height: 24px;
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-bottom:  5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.quit-game{
+   
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    height: 24px;
+    width: 32px;
+    margin: auto;
+        padding-top: 5px;
+    padding-bottom:  5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+.result-screen{
+    font-size: 1.5rem;
+}
